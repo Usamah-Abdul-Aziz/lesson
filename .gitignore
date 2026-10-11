@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Env & secrets
+.env
+.env.local
+.env.*.local
+*.pem
+
+# Supabase
+supabase/.temp/
+supabase/.branches/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Build output
+android/
+ios/
+*.apk
+*.aab
+*.ipa
+
+# Test
+coverage/
